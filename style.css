@@ -192,10 +192,10 @@ footer{
     flex-direction: column;
     align-items: center;
     margin-top: 143px;
-    height: 510px;
     background-color: #F7F7F7;
 }
 .footer_content_container{
+    margin-top: 55px;
     display: flex;
 }
 .footer_content{
@@ -215,7 +215,7 @@ footer{
 }
 .twitter_link{
     width: 347px;
-    height: 315px;
+    /* height: 315px; */
     margin-top: 34px;
 }
 .footer_title{
