@@ -8,6 +8,7 @@ header{
     margin-left: 13%;
 }
 nav{
+    width: 100%;
     background-color: #333333;
     height: 41px;
     display: flex;
@@ -86,14 +87,17 @@ nav{
 .main{
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 77px;
 }
 .main1_container{
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     /* margin-left: 217px; */
-    width: 759px;
+    max-width: 759px;
+    width: 90%;
 }
 .mian1_title{
     color: #333333;
@@ -114,10 +118,13 @@ nav{
 }
 .main1_image{
     height: 427px;
-    width: 759px;
+    width: 100%;
+    max-width: 759px;
+    object-fit: cover;
 }
 .main1_text_box{
-    width: 759px;
+    max-width: 759px;
+    width: 100%;
     height: 103px;
     display: flex;
     justify-content: center;
@@ -132,6 +139,7 @@ nav{
 .main1_readmore{
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
 }
 .main1_readmore_text{
     color: #333333;
@@ -227,6 +235,9 @@ footer{
 .footer_content_container{
     margin-top: 55px;
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .footer_content{
     width: 345px;
