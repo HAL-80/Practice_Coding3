@@ -1,26 +1,56 @@
+header{
+    height: 111px;
+    width: 100%;
+}
 .header_logo{
+    width: 145px;
+    height: 35px;
+    margin-left: 13%;
+}
+nav{
+    background-color: #333333;
+    height: 41px;
+    display: flex;
+    align-items: center;
+}
+.space_container{
+    width: 13%;
+}
+.navmenu{
+    width: 100%;
+    display: flex;
+}
+.navmenu_container{
+    width: 87%;
+}
+/* .header_logo{
     height: 30px;
     width: 45px;
     margin: 20px 0 20px 214px;
 }
 .navmenu_container{
+    width: 100%;
     background-color: #333333;
     height: 41px;
     display: flex;
     align-items: center;
 }
 .navmenu{
-    margin-left: 214px;
-}
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+} */
 .navmenu_text{
     color: #FFFFFF;
     font-size: 14px;
-    margin-right: 61px;
+    padding-right: 30px;
 }
 .pickup{
     margin-top: 39px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 23.5px;
 }
 .pickup_container{
     width: 373.75px;
@@ -31,7 +61,7 @@
     width: 373.75px;
     display: flex;
     flex-direction: column;
-    margin: 0 23.5px 0 23.5px;
+    /* margin: 0 23.5px 0 23.5px; */
 }
 .pickup_image{
     width: 373.75px;
