@@ -90,7 +90,8 @@ nav{
 .main{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 20px;
     flex-wrap: wrap;
     margin-top: 77px;
 }
@@ -301,7 +302,7 @@ footer{
     color: #333333;
     font-size: 12px;
 }
-@media(max-width:450px){
+@media(max-width:760px){
     .space_container{
         width: 0;
     }
@@ -318,5 +319,18 @@ footer{
     }
     .navmenu_text{
         padding-right: 0px;
+    }
+}
+@media(max-width:1174px){
+    .pickup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_content_container{
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
