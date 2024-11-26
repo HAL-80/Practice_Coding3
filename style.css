@@ -51,7 +51,7 @@ nav{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 23.5px;
+    gap: 23.25px;
 }
 .pickup_container{
     max-width: 375.75px;
@@ -68,7 +68,7 @@ nav{
 }
 .pickup_image{
     max-width: 375.75px;
-    width: 97%;
+    width: 100%;
     height: 210px;
 }
 .pickup_text{
@@ -91,7 +91,7 @@ nav{
     display: flex;
     justify-content: center;
     /* justify-content: space-around; */
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
     margin-top: 77px;
 }
@@ -101,7 +101,7 @@ nav{
     /* margin-right: 50px; */
     /* margin-left: 217px; */
     max-width: 759px;
-    width: 90%;
+    width: 97%;
 }
 .mian1_title{
     color: #333333;
