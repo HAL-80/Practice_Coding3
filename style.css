@@ -50,7 +50,6 @@ nav{
     margin-top: 39px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 23.25px;
 }
 .pickup_container{
@@ -356,7 +355,7 @@ footer{
         padding-right: 0px;
     }
 }
-@media(max-width:832px){
+@media(max-width:760px){
     .pickup{
         display: flex;
         flex-direction: column;
