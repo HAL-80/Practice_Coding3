@@ -288,7 +288,7 @@ footer{
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 0 71px;   
+    margin: 0 20px;   
 }
 .menu_container{
     display: flex;
@@ -338,11 +338,15 @@ footer{
     width: 100%;
     max-width: 345px;
 }
+.menu_text:hover, .menu_text_1:hover{
+    background-color: #d3d3d3; /* ホバー時の背景色 */
+}
 .menu_text{
     color: #333333;
     font-size: 14px;
     border-bottom: 1px solid #333;  /* 下に2pxの黒い枠線 */
     padding: 20px;  /* 内側の余白 */
+    transition: background-color 0.3s ease; /* スムーズに色を変える */
 }
 .menu_text_1{
     /* max-width: 345px;
@@ -353,6 +357,7 @@ footer{
     border-top: 1px solid #333;  /* 上に2pxの黒い枠線 */
     border-bottom: 1px solid #333;  /* 下に2pxの黒い枠線 */
     padding: 20px;  /* 内側の余白 */
+    transition: background-color 0.3s ease; /* スムーズに色を変える */
 }
 .footer_text_container{
     display: flex;
