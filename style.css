@@ -278,12 +278,12 @@ footer{
 }
 .footer_content{
     width: 100%;
-    max-width: 345px;
+    max-width: 362px;
     display: flex;
     flex-direction: column;
 }
 .footer_content_2{
-    max-width: 345px;
+    max-width: 362px;
     width: 100%;
     height: auto;
     display: flex;
@@ -295,19 +295,19 @@ footer{
     flex-direction: column;
 }
 .twitter_link{
-    max-width: 345px;
+    max-width: 362px;
     width: 100%;
     height: auto;
     /* height: 315px; */
     margin-top: 34px;
 }
 .css-175oi2r{
-    max-width: 345px;
+    max-width: 362px;
     width: 100%;
     height: auto;
 }
 .css-175oi2r, .r-1udh08x, .r-14lw9ot, .r-1ets6dv, .r-1q9bdsx, .r-rs99b7{
-    max-width: 345px;
+    max-width: 362px;
     width: 100%;
 }
 .footer_title{
@@ -316,7 +316,7 @@ footer{
 }
 .about_content_container{
     width: 100%;
-    max-width: 345px;
+    max-width: 362px;
     height: auto;
     margin: 34px 0 15px 0;
 }
@@ -336,7 +336,7 @@ footer{
 }
 .menu_container{
     width: 100%;
-    max-width: 345px;
+    max-width: 362px;
 }
 .menu_text:hover, .menu_text_1:hover{
     background-color: #d3d3d3; /* ホバー時の背景色 */
